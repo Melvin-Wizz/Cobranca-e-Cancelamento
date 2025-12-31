@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PAINEL DE LINKS</title>
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; }
+    body { background: #bc7b7b; color: #222; }
+    .navbar { padding: 16px 24px; background: #111; color: #fff; font-size: 18px; font-weight: bold; }
+    .content { padding: 40px 80px; }
+    .panel { background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+    .card { border-radius: 8px; padding: 24px; background: #f4f4f4; display: flex; flex-direction: column; justify-content: space-between; }
+    .card h3 { margin-bottom: 12px; font-size: 16px; }
+    .card a { display: block; text-decoration: none; margin-top: 8px; padding: 10px; border-radius: 6px; text-align: center; font-weight: bold; }
+    .ano { font-size: 14px; margin-bottom: 10px; color: #555; }
+
+    .cancelamento { background: #c0392b; color: #fff; }
+    .cobranca { background: #4b2c82; color: #fff; }
+    .tabela { background: #27ae60; color: #fff; }
+
+    .card a:hover { filter: brightness(0.9); }
+  </style>
+</head>
+<body>
+  <div class="navbar">PAINEL RÁPIDO · PEGADOR DE LINK 😈</div>
+
+  <div class="content">
+    <div class="panel">
+
+      <div class="card">
+        <div>
+          <div class="ano">2025</div>
+          <h3>Central 2025</h3>
+        </div>
+        <a class="tabela" href="https://docs.google.com/spreadsheets/d/1E11skxRmtIupqk2M66RF2RS82nc1T0sWT9AjPwB2gvU/edit" target="_blank">TABELA DE REGISTROS</a>
+        <a class="cancelamento" href="https://script.google.com/macros/s/AKfycbygbA_0zQn2KqUd9BwgcI5XtbPHDYrt_NpQKOkRdWcU_83DzSJOVSV-9G72Lnl4MZLzVQ/exec" target="_blank">REGISTRO CANCELAMENTO</a>
+        <a class="cobranca" href="https://script.google.com/macros/s/AKfycbw-aLHqp6MxOQ0L59EmTY0OxEYmhU3YNyp2DvXdgBuC5k5z2th0uAZ82JNk40YMFWB5Kw/exec" target="_blank">REGISTRO COBRANÇA</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <div class="ano">2026</div>
+          <h3>Central 2026</h3>
+        </div>
+        <a class="tabela" href="https://docs.google.com/spreadsheets/d/1rNgDeMP30GMssR8A6QQuCNyYjyLSB8WmO5yFkRNUzQU/edit" target="_blank">TABELA DE REGISTROS</a>
+        <a class="cancelamento" href="https://script.google.com/macros/s/AKfycbx2thdQuqnr16B5rh-r6mxWuaDcUszFEmr046o078jeIrZjcl7T3PiG8FJzZN-CiCP1TA/exec" target="_blank">REGISTRO CANCELAMENTO</a>
+        <a class="cobranca" href="https://script.google.com/macros/s/AKfycbxeoU2FASdLQkDom4cmzW05MxpArjN3NZPBHESe187IvxxQoCaD-80uxD6rUnwL1UuBug/exec" target="_blank">REGISTRO COBRANÇA</a>
+      </div>
+
+    </div>
+  </div>
+  </div>
+</body>
+</html>
